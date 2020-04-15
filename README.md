@@ -3,6 +3,7 @@ A collection of scripts that allow you to monitor a website and write results to
 
 # Usage
 `python3 watchweb.py https://example.com/`
+
 `go run watchweb.go https://example.com/`
 
 # Example Log
