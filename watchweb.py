@@ -9,7 +9,7 @@ try:
     log = open('watchweb.log', 'a')
     while True:
         req = requests.get(url).status_code
-        log.write('[%s] Response code on (%s) - %s' % (req, url, datetime.datetime.now()))
+        log.write('[%s] Response code on (%s) - %s\n' % (req, url, datetime.datetime.now()))
         time.sleep(300) # Sleep for 5 minutes
 except KeyboardInterrupt:
     log.close()
