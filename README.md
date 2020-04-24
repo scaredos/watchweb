@@ -8,6 +8,8 @@ GoLang - `go run watchweb.go https://example.com/`
 
 NodeJS - `node watchweb.js https://example.com/ watchweb.log`
 
+Dart - `dart watchweb.dart https://example.com/ watchweb.log`
+
 
 # Example Log
 `[200] Response code on (https://google.com/) - 2020-04-15 17:00:22.819304`
