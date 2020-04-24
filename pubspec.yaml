@@ -1,0 +1,5 @@
+name: watchweb
+
+dependencies:
+  intl: ^0.16.1
+  http: ^0.12.0+4
